@@ -11,7 +11,7 @@ dnl functionality.
 dnl Please note that the actual code of the GNU gettext library is covered
 dnl by the GNU Library General Public License, and the rest of the GNU
 dnl gettext package package is covered by the GNU General Public License.
-dnl They are *not* in the public domain.
+dnl They are !not! in the public domain.
 
 dnl Authors:
 dnl   Ulrich Drepper <drepper@cygnus.com>, 1995-2000.
@@ -29,3 +29,4 @@ AC_DEFUN([AM_NLS],
   AC_MSG_RESULT($USE_NLS)
   AC_SUBST(USE_NLS)
 ])
+ 
